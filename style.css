@@ -1,12 +1,15 @@
 
 body, html {
+  background-color: #cde9f4;
   margin: 0;
   padding: 0;
-  background-color: #cde9f4;
 }
 
 /* ---------- header ---------- */
-
+header {
+  display: flex;
+  justify-content: center
+}
 .logo {
   display: flex;
   align-items: center;
@@ -86,3 +89,58 @@ body, html {
   font-family: "Ramona-Bold"; 
   src: url("./fonts/Ramona/Ramona-Bold.ttf") format("truetype"); 
 } 
+
+/* ---------- head-navbar ---------- */
+
+.head-navbar {
+  width: 100%;
+  background-color: #07141a;
+  color: #fff;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-menu {
+  width: 1000px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-size: 26px;
+  font-weight: bolder;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* ---------- main-container ---------- */
+
+.main-container {
+  margin: 2%;
+  display: flex;
+  justify-content: center;
+}
+.content-block {
+  width: 1108px;
+  height: 100%;
+  border: 1px solid black;
+}
+.content {
+  box-sizing: border-box;
+  padding: 20px 50px;
+  text-align: justify;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* ---------- footer ---------- */
+
+footer {
+  
+  width: 100%;
+  height: 80px;
+  background-color: #07141a;
+}
+.footer-nav {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
